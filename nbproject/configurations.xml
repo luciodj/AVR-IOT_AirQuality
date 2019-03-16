@@ -215,6 +215,7 @@
         <itemPath>mcc_generated_files/debug_print.h</itemPath>
         <itemPath>mcc_generated_files/led.h</itemPath>
         <itemPath>mcc_generated_files/banner.h</itemPath>
+        <itemPath>mcc_generated_files/airquality.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -411,6 +412,7 @@
         <itemPath>mcc_generated_files/device_config.c</itemPath>
         <itemPath>mcc_generated_files/led.c</itemPath>
         <itemPath>mcc_generated_files/debug_print.c</itemPath>
+        <itemPath>mcc_generated_files/airquality.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -446,7 +448,7 @@
         </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
-          <parseOnProdLoad>false</parseOnProdLoad>
+          <parseOnProdLoad>true</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
         <subordinates>
