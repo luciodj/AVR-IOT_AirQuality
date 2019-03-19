@@ -28,7 +28,7 @@
 #define AirQuality_chn ADC_MUXPOS_AIN7_gc // RD7 - AN
 
 static double Rs_CleanAir;
-static double Ro_Air = 5000;
+static double Ro_Air = 3.3;
 static uint8_t isInitialized = 2;
 
 void AirQuality_Initialize(void){

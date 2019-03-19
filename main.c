@@ -67,6 +67,7 @@ void sendToCloud(void)
                       abs(rawTemperature) % 100,
                       (int)airQuality,
                       (int)(airQuality * 100) % 100);
+    printf("AirQuality: %d\n", (int)(airQuality*100));
 
    if (len >0) {
       CLOUD_publishData((uint8_t*)json, len);

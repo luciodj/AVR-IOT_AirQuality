@@ -519,7 +519,7 @@
         <property key="no-interrupts" value="false"/>
         <property key="no-system-directories" value="false"/>
         <property key="optimization-level" value="-Os"/>
-        <property key="pack-struct" value="true"/>
+        <property key="pack-struct" value="false"/>
         <property key="preprocessor-macros" value=""/>
         <property key="preprocessor-macros-undefined" value=""/>
         <property key="save-temps" value="false"/>
@@ -561,7 +561,7 @@
         <property key="remove-unused-sections" value="true"/>
         <property key="rodata-writable" value="false"/>
         <property key="sram-segment" value=""/>
-        <property key="v-printf" value="false"/>
+        <property key="v-printf" value="true"/>
       </AVR-LD>
       <nEdbgTool>
         <property key="AutoSelectMemRanges" value="auto"/>
